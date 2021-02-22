@@ -1,0 +1,196 @@
+html, body, div, input, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+@font-face {
+    font-family: Shabnam;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Shabnam-Medium-FD.woff') format('woff');
+}
+
+@font-face {
+    font-family: ShabnamBold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Shabnam-Bold-FD.woff') format('woff');
+}
+
+body {
+    direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Shabnam !important;
+}
+
+.dataTables_length {
+    position: absolute;
+    top: 16px;
+    right: 141px;
+    text-align: right;
+}
+
+.dataTables_filter {
+    display: none !important;
+}
+
+.dataTables_paginate {
+    height: 30px;
+    width: 100%;
+    background: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.dataTables_info {
+    display: none !important;
+}
+
+.dataTables_paginate a {
+    color: #444;
+    font-size: 14px;
+}
+
+.dataTables_paginate a:hover {
+    text-decoration: none;
+    background: none;
+}
+
+.dataTables_paginate a:focus {
+    box-shadow: none;
+}
+
+.dataTables_paginate .paginate_button {
+    padding: 5px;
+    float: right;
+}
+
+.dataTables_paginate .current {
+    color: red;
+}
+
+.dataTables_paginate .previous {
+    padding-right: 12px;
+}
+
+.uk-table th {
+    padding: 16px 7px;
+    text-align: center !important;
+    vertical-align: bottom;
+    font-size: .875rem;
+    font-family: Shabnam;
+    font-weight: 500 !important;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+.filter_box {
+    background: #fff;
+    margin-bottom: 4px;
+    padding: 10px;
+    position: relative;
+    height: 43px;
+}
+
+.filter-m {
+    position: relative;
+}
+
+.edit_box {
+    background: #fff;
+    padding: 30px;
+}
+
+.count-users {
+    float: right;
+    margin-top: 6px;
+    margin-left: 62px;
+    margin-right: 3px;
+    position: relative;
+    font-family: Shabnam;
+
+}
+
+#search-box {
+    float: left;
+    font-family: Shabnam;
+}
+
+.b-count {
+    font-weight: bold;
+    margin-right: 24px;
+    position: absolute;
+    width: 55px;
+    font-family: Shabnam;
+
+    top: 5px;
+    margin-left: 5px;
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+}
+
+.row100 td {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    text-align: center;
+    font-family: Shabnam;
+    font-size: 12px;
+}
+
+.total-payment {
+    color: #0ba821;
+    font-family: Shabnam;
+    font-size: 20px;
+}
+
+.uk-card-body {
+    padding: 10px 39px 10px !important;
+}
+
+.icon-total {
+    float: right;
+    background: #0ba821;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.content-total {
+    float: right;
+    padding-right: 24px;
+}
+
+.content-total h3 {
+    font-family: ShabnamBold !important;
+    font-size: 17px !important;
+}
+.uk-card-body{
+    border-radius: 10px;
+}
+/********* options style **************/
+.nav-tab-wrapper a:hover {
+    text-decoration: none;
+}
+
+.nav-tab-wrapper a:focus {
+    box-shadow: none;
+}
+
+.regular-text {
+    border: 1px solid #DFDFDF !important;
+    padding: 6px !important;
+}
+
+.dataTables_length, .dataTables_paginate {
+    font-family: Shabnam;
+
+}
