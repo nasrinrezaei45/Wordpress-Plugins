@@ -102,7 +102,8 @@ class SmsIR_SendMessage {
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-		curl_setopt($ch, CURLOPT_POST, count($postString));
+        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+        curl_setopt($ch, CURLOPT_POST, count($postString));
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $postString);
 		
 		$result = curl_exec($ch);
@@ -146,7 +147,8 @@ class SmsIR_SendMessage {
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-		curl_setopt($ch, CURLOPT_POST, count($postString));
+        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+        curl_setopt($ch, CURLOPT_POST, count($postString));
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $postString);
 		
 		$result = curl_exec($ch);

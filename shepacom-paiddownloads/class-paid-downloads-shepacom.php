@@ -2033,7 +2033,8 @@ class shepacompaiddownloads_class
 		curl_setopt($ch, CURLOPT_FAILONERROR, TRUE);
 		curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
 		curl_setopt($ch, CURLOPT_POST, TRUE);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $_postdata);
+        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $_postdata);
 
 		$content = curl_exec($ch);
 		$err     = curl_errno($ch);
@@ -2065,7 +2066,8 @@ class shepacompaiddownloads_class
 		curl_setopt($ch, CURLOPT_FAILONERROR, TRUE);
 		curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
 		curl_setopt($ch, CURLOPT_POST, TRUE);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $_postdata);
+        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $_postdata);
 
 		$data  = curl_exec($ch);
 
